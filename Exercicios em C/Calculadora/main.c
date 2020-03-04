@@ -69,14 +69,35 @@ void funcAreas()
 
 void funcFuncoes()
 {
-    printf("Opcoes:\n");
-    printf("----------------\n");
-    printf("0 - Sair       |");
-    printf("\n1 - Linear     |");
-    printf("\n2 - Quadratica |");
-    printf("\n3 - Exponencial|\n");
-    printf("----------------\n");
+    int controle = 0;
+    do
+    {
+        printf("Opcoes:\n");
+        printf("----------------\n");
+        printf("0 - Sair       |");
+        printf("\n1 - Linear     |");
+        printf("\n2 - Quadratica |");
+        printf("\n3 - Exponencial|\n");
+        printf("----------------\n");
 
+        scanf("%d", &controle);
+           switch ( controle )
+            {
+                case 1:
+                    funcLinear();
+                    break;
+                case 2:
+                    funcQuadratica();
+                    break;
+                case 3:
+                    funcExponencial();
+                    break;
+                case 0:
+                    break;
+
+            }
+
+    }  while (controle != 0);
 }
 
 void funcDiversos()
@@ -126,4 +147,88 @@ void funcHexagono()
     area = 6 * ((lado * lado * 1.732) / 4);
 
     printf(" Area : %.2f", area, "\n");
+}
+
+
+void funcLinear()
+{
+    float a,
+          x,
+          b,
+          resultado;
+          a = 0;
+          x = 0;
+          b = 0;
+          resultado = 0;
+          printf("\nInforme o valor de A :\n");
+          scanf("%f", &a);
+          printf("\nInforme o valor de X :\n");
+          scanf("%f",&x);
+          printf("Informe o valor de B :\n");
+            scanf("%f",&b);
+            resultado = a*x+b;
+            printf("O resultado e : %f", resultado);
+void funcFuncoes()
+{
+    int controle = 0;
+    do
+    {
+        printf("Opcoes:\n");
+        printf("----------------\n");
+        printf("0 - Sair       |");
+        printf("\n1 - Linear     |");
+        printf("\n2 - Quadratica |");
+        printf("\n3 - Exponencial|\n");
+        printf("----------------\n");
+
+        scanf("%d", &controle);
+           switch ( controle )
+            {
+                case 1:
+                    funcLinear();
+                    break;
+                case 2:
+                    funcQuadratica();
+                    break;
+                case 3:
+                    funcExponencial();
+                    break;
+                case 0:
+                    break;
+
+            }
+
+    }  while (controle != 0);
+}void funcFuncoes()
+{
+    int controle = 0;
+    do
+    {
+        printf("Opcoes:\n");
+        printf("----------------\n");
+        printf("0 - Sair       |");
+        printf("\n1 - Linear     |");
+        printf("\n2 - Quadratica |");
+        printf("\n3 - Exponencial|\n");
+        printf("----------------\n");
+
+        scanf("%d", &controle);
+           switch ( controle )
+            {
+                case 1:
+                    funcLinear();
+                    break;
+                case 2:
+                    funcQuadratica();
+                    break;
+                case 3:
+                    funcExponencial();
+                    break;
+                case 0:
+                    break;
+
+            }
+
+    }  while (controle != 0);
+}
 }
