@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583441793 source:c:\users\diogo\desktop\exercicios-c\exercicios em c\calculamedidaescada\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
