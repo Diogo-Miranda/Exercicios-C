@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584994668 source:c:\users\diogo\desktop\medianumeros\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
