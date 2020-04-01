@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585158840 source:c:\users\diogo\desktop\exercicios-c\atividades repetição p3\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+
