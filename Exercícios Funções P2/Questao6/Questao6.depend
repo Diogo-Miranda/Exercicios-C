@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587157968 source:c:\users\diogo\desktop\exercicios-c\exercícios funções p2\questao6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

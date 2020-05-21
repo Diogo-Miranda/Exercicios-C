@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586307754 source:c:\users\diogo\desktop\exercicios-c\exercícios repetição p7\questao3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
